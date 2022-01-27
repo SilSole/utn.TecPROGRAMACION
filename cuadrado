@@ -1,0 +1,15 @@
+Algoritmo cuadrado
+	definir n Como entero;
+	Escribir "Calculamos el cuadrado de un numero";
+		Repetir
+			Escribir Sin Saltar "colocar un numero";
+			leer n;
+			
+			n<-n*2;
+			
+			Escribir " El resultado es: ", n;
+		Hasta Que n < 0
+		
+		Escribir "El programa finalizo, no se admite numero negativo";
+		
+FinAlgoritmo
