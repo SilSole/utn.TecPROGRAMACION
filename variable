@@ -1,0 +1,23 @@
+Proceso variable
+	Definir nombre, apellido Como Caracter;
+	Definir edad, num Como Entero;
+	definir altura Como Real;
+	definir esmayorEdad Como Logico;
+	
+	Escribir "Sumamos los numeros que ingrese";
+	Escribir "digite un numero: ";
+	leer num;
+	
+	nombre <- "Alberto Ariel ";
+	apellido <- "Bentacud";
+	edad <- 43;
+	altura<- 1.83;
+	esmayorEdad <- (edad > 18);
+	
+	Escribir "Su nombre y apellido es: ", nombre, "" , apellido;
+	Escribir "Edad: ?", "Altura: ",altura;
+	Escribir "";
+	escribir "Altura: ", altura;
+	Escribir "¿Es mayor de edad?", esmayorEdad;
+		
+FinProceso
