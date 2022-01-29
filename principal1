@@ -2,14 +2,21 @@ Proceso principal
 	Definir numero1 como entero;
 	Definir numero2 como real;
 	Definir misterio como logica;
-	Definir letra como caracter;
-	Definir palabra como cadena;
 	
-	
-	numero1 <- 10;
-	numero2 <- 19.67;
 	misterio <- falso;
-	letra <- 'a';
-	palabra <- "Hola";
+	Escribir "Escribe un numero: ";
+	Leer numero1;
+	Escribir "Escribir otro numero: ";
+	Leer numero2;
 	
+	
+	Si numero1 > numero2 Entonces
+			Escribir "EL NUMERO ", numero1, " ES MAYOR A ", numero2;
+	SiNo
+			Escribir "EL NUMERO ", numero2, " ES MAYOR A ", numero1;
+	FinSi
+	Si numero1 < 0 o numero2 < 0 Entonces
+		Escribir  "EL O LOS NUMEROS NO PUEDEN SER NEGATIVOS, ";
+	FinSi
+		Escribir misterio;
 FinProceso
